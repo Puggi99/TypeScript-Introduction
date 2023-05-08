@@ -1,0 +1,6 @@
+<!-- <ul>
+    <li *ngFor="let item of todoArray">{{item}}</li>
+</ul> -->
+
+<button (click)="sortTodo()">Ordina</button>
+<app-todo id="todo-list" *ngFor="let item of todoArray" [todo]="item"></app-todo>
